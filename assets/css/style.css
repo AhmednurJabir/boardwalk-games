@@ -95,6 +95,30 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events section */
+
+#events p {
+    text-align: justify;
+}
+
+#events table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#events td,
+#events th {
+    word-wrap: break-word;
+}
+
+#discount {
+    background-color: var(--highlight-color);
+    color: white;
+    display: table;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
 /* Game library cards */
 
 #new-games .card,
